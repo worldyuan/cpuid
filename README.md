@@ -1,5 +1,5 @@
 How to Use
-
+```
 package main
 
 import (
@@ -12,3 +12,4 @@ func main() {
         cpuid.Cpuid(&ids, 0)
         fmt.Printf("%d%d%d%d", ids[0], ids[1], ids[2], ids[3])
 }
+```
